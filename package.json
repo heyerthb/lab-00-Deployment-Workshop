@@ -1,0 +1,28 @@
+{
+  "name": "lab-00-Deployment-Workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "lint": "eslint './src/**/*.js' --fix",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyerthb/lab-00-Deployment-Workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyerthb/lab-00-Deployment-Workshop/issues"
+  },
+  "homepage": "https://github.com/heyerthb/lab-00-Deployment-Workshop#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3"
+  }
+}
